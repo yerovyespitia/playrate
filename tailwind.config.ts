@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        card: 'repeat(auto-fill, minmax(190px, 1fr))',
+        sm: 'repeat(auto-fill, minmax(140px, 1fr))',
+      },
       spacing: {
         '18': '70px',
       },
