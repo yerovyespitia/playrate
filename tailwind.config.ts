@@ -8,8 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '18': '70px',
+      },
       colors: {
         'custom-black': '#1E1E1E',
+        'custom-gray': '#252525',
+        'custom-light-black': '#404040',
       },
     },
   },
