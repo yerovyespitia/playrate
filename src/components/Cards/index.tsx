@@ -1,10 +1,14 @@
 import { Card } from '../Card'
 
-export const Cards = () => {
+interface PropCards {
+  title: string
+}
+
+export const Cards = ({ title }: PropCards) => {
   return (
     <section className='mt-6 mb-16'>
       <div className='flex justify-between items-center mb-3'>
-        <h2 className='text-lg text-gray-300 font-semibold'>Title cards</h2>
+        <h2 className='text-lg text-gray-300 font-semibold'>{title}</h2>
         <p className='text-md text-gray-200 font-medium'>View all</p>
       </div>
 
