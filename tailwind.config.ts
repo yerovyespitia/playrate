@@ -15,6 +15,10 @@ const config: Config = {
       spacing: {
         '18': '70px',
       },
+      screens: {
+        '1xl': '1440px',
+        '2xl': '1520px',
+      },
       colors: {
         'custom-black': '#1E1E1E',
         'custom-gray': '#252525',

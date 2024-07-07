@@ -14,21 +14,33 @@ export const Navigation = () => {
 
   return (
     <>
-      <nav className='relative flex justify-between md:justify-center items-center w-full h-20 py-0 px-5 border-b border-b-custom-gray gap-10 md:gap-0'>
+      <nav className='relative flex justify-between md:justify-between items-center w-full 2xl:w-[95%] transition 2xl:m-auto 2xl:px-0 h-20 py-0 px-5 md:px-10 border-b border-b-custom-gray'>
         <Items
           classUl={'flex items-center gap-5'}
           classLi={
             'font-medium hover:underline cursor-pointer hidden md:inline'
           }
+          limit={3}
         >
           <Link href={'/'}>
             <li className='text-3xl cursor-pointer'>🐙</li>
           </Link>
         </Items>
 
-        <section className='md:hidden flex flex-col gap-1 cursor-pointer'>
+        <section className='flex flex-row cursor-pointer'>
+          <Link href={'/login'}>
+            <button className='hidden md:inline rounded-full bg-custom-gray border border-custom-gray px-6 py-2.5 text-sm font-medium text-white transition hover:bg-custom-black'>
+              Login
+            </button>
+          </Link>
+          <Link href={'/register'}>
+            <button className='hidden md:inline ml-3 rounded-full bg-custom-gray border border-custom-gray px-6 py-2.5 text-sm font-medium text-white transition hover:bg-custom-black'>
+              Register
+            </button>
+          </Link>
           <button onClick={() => setShowMenu(true)}>
             <Image
+              className='md:hidden'
               src={'./svgs/stripes.svg'}
               width={27}
               height={27}
@@ -41,7 +53,7 @@ export const Navigation = () => {
       <Items
         classUl={
           showMenu
-            ? 'md:hidden absolute top-0 right-0 flex w-full bg-custom-gray h-screen flex-col items-start p-[20px] gap-[30px] border-l border-l-custom-gray z-[100]'
+            ? 'md:hidden absolute top-0 right-0 flex w-full bg-custom-gray h-screen flex-col items-start p-[20px] gap-5 border-l border-l-custom-gray z-[100]'
             : 'hidden'
         }
         classLi={

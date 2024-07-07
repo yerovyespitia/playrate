@@ -5,13 +5,16 @@ interface PropsItems {
   classUl: string
   classLi: string
   children?: React.ReactNode
+  limit?: number
 }
 
-export const Items = ({ classLi, classUl, children }: PropsItems) => {
+export const Items = ({ classLi, classUl, children, limit }: PropsItems) => {
+  const itemsToShow = limit ? menuItems.slice(0, limit) : menuItems
+
   return (
     <ul className={classUl}>
       {children}
-      {menuItems.map(({ label, href }: { label: string; href: string }) => (
+      {itemsToShow.map(({ label, href }: { label: string; href: string }) => (
         <Link className='w-full' href={href} key={label}>
           <li className={classLi}>{label}</li>
         </Link>
