@@ -1,14 +1,14 @@
 import { Container } from '@/components/Container'
-import { Cards } from '../components/Cards'
+import { HorizontalCards } from '@/components/Cards/horizontal'
 
 export default function Home() {
   return (
     <Container>
-      <Cards title={'Trending now'} />
-      <Cards title={'Lastest releases'} />
-      <Cards title={'Upcoming'} />
-      <Cards title={'All time popular'} />
-      <Cards title={'Most reviewed'} />
+      <HorizontalCards title={'Trending now'} />
+      <HorizontalCards title={'Lastest releases'} />
+      <HorizontalCards title={'Upcoming'} />
+      <HorizontalCards title={'All time popular'} />
+      <HorizontalCards title={'Most reviewed'} />
     </Container>
   )
 }

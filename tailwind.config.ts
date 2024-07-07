@@ -11,6 +11,7 @@ const config: Config = {
       gridTemplateColumns: {
         card: 'repeat(auto-fill, minmax(190px, 1fr))',
         sm: 'repeat(auto-fill, minmax(140px, 1fr))',
+        vertical: 'repeat(auto-fill, minmax(400px, 1fr))',
       },
       spacing: {
         '18': '70px',

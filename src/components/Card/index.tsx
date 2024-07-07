@@ -1,4 +1,3 @@
-'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,7 +6,7 @@ export const Card = () => {
     <section className='flex flex-col gap-2'>
       <Link href={'/game'}>
         <Image
-          className='w-full h-full object-cover rounded-lg'
+          className='object-cover w-full h-full rounded-lg'
           src={'/imgs/square.png'}
           width={195}
           height={195}
@@ -15,7 +14,7 @@ export const Card = () => {
         />
       </Link>
       <Link href={'/game'}>
-        <p className='font-medium text-md text-gray-200 capitalize hover:text-gray-400'>
+        <p className='font-medium text-gray-200 capitalize text-md hover:text-gray-400'>
           Duck game
         </p>
       </Link>
