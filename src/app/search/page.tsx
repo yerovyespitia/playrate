@@ -1,7 +1,16 @@
+import { Cards } from '@/components/Cards'
+import { Container } from '@/components/Container'
+import { SearchBar } from '@/components/Search'
+
 export default function Search() {
   return (
-    <main className='max-w-[1520px] m-auto px-5 md:px-10'>
-      <h1 className='mt-6'>search...</h1>
-    </main>
+    <Container>
+      <SearchBar />
+      <Cards title={'Trending now'} />
+      <Cards title={'Lastest releases'} />
+      <Cards title={'Upcoming'} />
+      <Cards title={'All time popular'} />
+      <Cards title={'Most reviewed'} />
+    </Container>
   )
 }
