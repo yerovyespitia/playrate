@@ -4,7 +4,7 @@ import { Tags } from './tags'
 
 export const ColumnCard = () => {
   return (
-    <article className='border rounded-lg border-custom-tertiary hover:bg-secondary'>
+    <article className='border rounded-lg border-tertiary hover:bg-secondary'>
       <Link href={'/game'}>
         <div className='flex flex-col items-start justify-between gap-3 p-3 lg:gap-0 lg:items-center lg:flex-row'>
           <div className='flex flex-col items-center sm:flex-row'>
