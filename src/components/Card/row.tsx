@@ -4,7 +4,7 @@ import { Tags } from './tags'
 
 export const RowCard = () => {
   return (
-    <article className='border rounded-lg border-custom-light-black hover:bg-custom-gray'>
+    <article className='border rounded-lg border-tertiary hover:bg-secondary'>
       <Link href={'/game'}>
         <div className='flex flex-col items-start justify-between gap-3 p-3 lg:gap-0 lg:items-center lg:flex-row'>
           <div className='flex flex-col sm:items-center sm:flex-row'>

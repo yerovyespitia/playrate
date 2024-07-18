@@ -21,9 +21,9 @@ const config: Config = {
         '2xl': '1520px',
       },
       colors: {
-        'custom-black': '#1E1E1E',
-        'custom-gray': '#252525',
-        'custom-light-black': '#404040',
+        'primary': '#1E1E1E',
+        'secondary': '#252525',
+        'tertiary': '#404040',
       },
     },
   },

@@ -14,7 +14,7 @@ export const Navigation = () => {
 
   return (
     <>
-      <nav className='relative flex justify-between md:justify-between items-center w-full 2xl:w-[95%] transition 2xl:m-auto 2xl:px-0 h-20 py-0 px-5 md:px-10 border-b border-b-custom-gray'>
+      <nav className='relative flex justify-between md:justify-between items-center w-full 2xl:w-[95%] transition 2xl:m-auto 2xl:px-0 h-20 py-0 px-5 md:px-10 border-b border-b-secondary'>
         <Items
           classUl={'flex items-center gap-5'}
           classLi={
@@ -29,12 +29,12 @@ export const Navigation = () => {
 
         <section className='flex flex-row cursor-pointer'>
           <Link href={'/login'}>
-            <button className='hidden md:inline rounded-full bg-custom-gray border border-custom-gray px-6 py-2.5 text-sm font-medium text-white transition hover:bg-custom-black'>
+            <button className='hidden md:inline rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
               Login
             </button>
           </Link>
           <Link href={'/register'}>
-            <button className='hidden md:inline ml-3 rounded-full bg-custom-gray border border-custom-gray px-6 py-2.5 text-sm font-medium text-white transition hover:bg-custom-black'>
+            <button className='hidden md:inline ml-3 rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
               Register
             </button>
           </Link>
@@ -53,11 +53,11 @@ export const Navigation = () => {
       <Items
         classUl={
           showMenu
-            ? 'md:hidden absolute top-0 right-0 flex w-full bg-custom-gray h-screen flex-col items-start p-[20px] gap-5 border-l border-l-custom-gray z-[100]'
+            ? 'md:hidden absolute top-0 right-0 flex w-full bg-secondary h-screen flex-col items-start p-[20px] gap-5 border-l border-l-secondary z-[100]'
             : 'hidden'
         }
         classLi={
-          'font-medium w-full text-center bg-custom-black hover:bg-custom-light-black transition p-3 h-12 rounded-lg cursor-pointer'
+          'font-medium w-full text-center bg-primary hover:bg-tertiary transition p-3 h-12 rounded-lg cursor-pointer'
         }
         setShowMenu={setShowMenu}
       >

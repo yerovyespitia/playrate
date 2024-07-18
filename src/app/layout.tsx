@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} bg-custom-black`}>
+      <body className={`${inter.className} bg-primary`}>
         <section className='max-w-[1520px] m-auto'>
           <Navigation />
         </section>

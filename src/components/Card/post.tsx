@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const PostCard = () => {
   return (
-    <article className='border rounded-lg border-custom-light-black hover:bg-custom-gray'>
+    <article className='border rounded-lg border-tertiary hover:bg-secondary'>
       <Link href={'/game'}>
         <div className='flex flex-col p-3'>
           <article className='flex flex-col gap-3'>
