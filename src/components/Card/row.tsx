@@ -14,14 +14,14 @@ export const RowCard = () => {
               alt='square'
             />
 
-            <div className='flex flex-col gap-3 sm:pl-3'>
+            <article className='flex flex-col gap-3 sm:pl-3'>
               <h2 className='text-lg font-semibold text-gray-400 capitalize'>
                 The last of us
               </h2>
 
               <Tags tag1={'Adventure'} tag2={'Drama'} tag3={'Fantasy'} />
               <GameDetails />
-            </div>
+            </article>
           </div>
         </div>
       </Link>
