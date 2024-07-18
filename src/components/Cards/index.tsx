@@ -12,11 +12,11 @@ export const Cards = ({ title }: PropsCards) => {
         <p className='font-medium text-gray-200 text-md'>View all</p>
       </div>
 
-      <div className='grid items-end grid-cols-2 gap-3 md:grid-cols-card'>
+      <section className='grid items-end grid-cols-2 gap-3 md:grid-cols-card'>
         {Array.from({ length: 7 }).map((_, index) => (
           <Card key={index} />
         ))}
-      </div>
+      </section>
     </section>
   )
 }
