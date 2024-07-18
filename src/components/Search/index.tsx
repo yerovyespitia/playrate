@@ -6,7 +6,7 @@ export const SearchBar = () => {
           Search
         </label>
         <input
-          className='rounded-md mt-2 px-3 h-11 w-full text-gray-300 bg-custom-gray outline-none focus:outline-custom-light-black'
+          className='w-full px-3 mt-2 text-gray-300 rounded-md outline-none h-11 bg-custom-gray focus:outline-custom-light-black'
           placeholder='Search...'
           type='text'
           name='search'
