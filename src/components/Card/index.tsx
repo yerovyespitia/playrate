@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const Card = () => {
   return (
-    <section className='flex flex-col gap-2'>
+    <article className='flex flex-col gap-2'>
       <Link href={'/game'}>
         <Image
           className='object-cover w-full h-full rounded-lg'
@@ -18,6 +18,6 @@ export const Card = () => {
           Duck game
         </p>
       </Link>
-    </section>
+    </article>
   )
 }
