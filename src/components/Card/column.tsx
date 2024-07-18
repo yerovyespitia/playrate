@@ -14,7 +14,7 @@ export const ColumnCard = () => {
               alt='square'
             />
 
-            <div className='flex flex-col gap-3 sm:pl-3 sm:max-w-[470px]'>
+            <article className='flex flex-col gap-3 sm:pl-3 sm:max-w-[470px]'>
               <h2 className='text-lg font-semibold text-gray-400 capitalize'>
                 The last of us
               </h2>
@@ -30,7 +30,7 @@ export const ColumnCard = () => {
               <section className='inline lg:hidden'>
                 <GameDetails />
               </section>
-            </div>
+            </article>
           </div>
 
           <footer className='hidden lg:inline'>
