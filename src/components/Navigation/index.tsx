@@ -59,10 +59,16 @@ export const Navigation = () => {
         classLi={
           'font-medium w-full text-center bg-custom-black hover:bg-custom-light-black transition p-3 h-12 rounded-lg cursor-pointer'
         }
+        setShowMenu={setShowMenu}
       >
         <div className='flex justify-between items-center w-full py-[1.5px]'>
           <Link href={'/'}>
-            <p className='text-3xl cursor-pointer md:hidden'>🐙</p>
+            <p
+              onClick={() => setShowMenu(false)}
+              className='text-3xl cursor-pointer md:hidden'
+            >
+              🐙
+            </p>
           </Link>
           <button onClick={() => setShowMenu(false)}>
             <Image
