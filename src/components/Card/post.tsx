@@ -31,7 +31,7 @@ export const PostCard = () => {
                 />
                 <p className='font-medium text-gray-300'>Placeholder</p>
               </div>
-              <Tags tag1={'Adventure'} tag2={'Drama'} tag3={'Dark Fantasy'} />
+              <Tags tags={['Adventure', 'Drama', 'Dark Fantasy']} />
             </footer>
           </article>
         </div>

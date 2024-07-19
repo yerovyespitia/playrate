@@ -19,7 +19,7 @@ export const RowCard = () => {
                 The last of us
               </h2>
 
-              <Tags tag1={'Adventure'} tag2={'Drama'} tag3={'Fantasy'} />
+              <Tags tags={['Adventure', 'Drama', 'Fantasy']} />
               <GameDetails />
             </article>
           </div>
