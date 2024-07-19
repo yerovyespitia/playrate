@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const GameDetails = () => {
   return (
-    <div className='flex items-start justify-between w-full gap-3 lg:w-auto lg:gap-12'>
+    <div className='flex items-start justify-between w-full gap-3 md:w-auto md:gap-12'>
       <div className='flex flex-col gap-1'>
         <p className='text-gray-400 font-semibold text-[14px]'>Rating</p>
         <div className='flex items-center gap-2'>

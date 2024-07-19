@@ -2,7 +2,7 @@ export const SearchBar = () => {
   return (
     <search className='mt-5'>
       <form action='submit'>
-        <label htmlFor='search' className='font-semibold'>
+        <label htmlFor='search' className='font-semibold text-white'>
           Search
         </label>
         <input

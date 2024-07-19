@@ -18,7 +18,7 @@ export const Navigation = () => {
         <Items
           classUl={'flex items-center gap-5'}
           classLi={
-            'font-medium hover:underline cursor-pointer hidden md:inline'
+            'font-medium hover:underline cursor-pointer hidden md:inline text-white'
           }
           limit={3}
         >
@@ -53,11 +53,11 @@ export const Navigation = () => {
       <Items
         classUl={
           showMenu
-            ? 'md:hidden absolute top-0 right-0 flex w-full bg-secondary h-screen flex-col items-start p-[20px] gap-5 border-l border-l-secondary z-[100]'
+            ? 'md:hidden absolute top-0 right-0 flex w-full bg-secondary h-screen flex-col items-start p-5 gap-5 border-l border-l-secondary z-[100]'
             : 'hidden'
         }
         classLi={
-          'font-medium w-full text-center bg-primary hover:bg-tertiary transition p-3 h-12 rounded-lg cursor-pointer'
+          'font-medium w-full text-center bg-primary hover:bg-tertiary transition text-white p-3 h-12 rounded-lg cursor-pointer'
         }
         setShowMenu={setShowMenu}
       >
