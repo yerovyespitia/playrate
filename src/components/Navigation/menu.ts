@@ -4,8 +4,8 @@ export const menuItems = [
     href: '/search',
   },
   {
-    label: 'Community',
-    href: '/community',
+    label: 'Lists',
+    href: '/lists',
   },
   {
     label: 'Forum',
