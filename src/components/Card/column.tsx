@@ -15,11 +15,11 @@ export const ColumnCard = () => {
             />
 
             <article className='flex flex-col gap-3 sm:pl-3 lg:max-w-[470px]'>
-              <h2 className='text-lg font-semibold text-gray-400 capitalize'>
+              <h2 className='text-lg font-semibold text-zinc-400 capitalize'>
                 The last of us
               </h2>
 
-              <p className='text-gray-200 lg:mr-3'>
+              <p className='text-gray-200 leading-7 lg:mr-3'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
                 consequuntur delectus iste quia eligendi excepturi? Qui,
                 doloribus.

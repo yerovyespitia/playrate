@@ -15,7 +15,7 @@ export const RowCard = () => {
             />
 
             <article className='flex flex-col gap-3 sm:pl-3'>
-              <h2 className='text-lg font-semibold text-gray-400 capitalize'>
+              <h2 className='text-lg font-semibold text-zinc-400 capitalize'>
                 The last of us
               </h2>
 
