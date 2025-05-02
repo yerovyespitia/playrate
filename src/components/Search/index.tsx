@@ -6,8 +6,8 @@ export const SearchBar = () => {
           Search
         </label>
         <input
-          className='w-full px-3 mt-2 text-gray-300 rounded-md outline-none h-11 bg-secondary focus:outline-tertiary'
-          placeholder='Search...'
+          className='w-full px-3 mt-2 text-gray-300 rounded-lg outline-none h-12 bg-secondary focus:outline-tertiary'
+          placeholder='Search any game...'
           type='text'
           name='search'
           id='search'
