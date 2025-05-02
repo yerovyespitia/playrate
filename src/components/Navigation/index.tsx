@@ -18,7 +18,7 @@ export const Navigation = () => {
         <Items
           classUl={'flex items-center gap-5'}
           classLi={
-            'font-medium hover:underline cursor-pointer hidden md:inline text-white'
+            'font-medium cursor-pointer hidden md:inline text-white'
           }
           limit={3}
         >
@@ -29,12 +29,12 @@ export const Navigation = () => {
 
         <section className='flex flex-row cursor-pointer'>
           <Link href={'/login'}>
-            <button className='hidden md:inline rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
+            <button className='hidden md:inline cursor-pointer rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
               Login
             </button>
           </Link>
           <Link href={'/register'}>
-            <button className='hidden md:inline ml-3 rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
+            <button className='hidden md:inline cursor-pointer ml-3 rounded-full bg-secondary border border-secondary px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary'>
               Register
             </button>
           </Link>
