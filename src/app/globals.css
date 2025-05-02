@@ -7,3 +7,24 @@
   --color-quaternary: #555555;
 }
 
+
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-tertiary);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--color-quaternary);
+}
